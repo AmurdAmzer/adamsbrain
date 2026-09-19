@@ -87,7 +87,7 @@ Chosen because they form a prerequisite chain rather than three separate areas: 
 
 **What a skill is.** A skill is the level at which you would give different instruction. If two things need the same reteach, they are one skill. Too coarse and the system cannot adapt, because "quadratics mastered" says nothing about factoring in particular. Too fine and 11 students never generate enough attempts per skill for a mastery estimate to mean anything.
 
-Working rule: a skill is something teachable in one 40-minute period, with roughly 8 practice items behind it. Target 10 to 15 skills across the three clusters, not 60. Skills are tagged with standard taxonomy codes rather than Regents-only labels, so the same content is legible to any Algebra 1 curriculum later. **Final grain to be set in Session 3.** See OQ-3.
+Working rule: a skill is something teachable in one 40-minute period, with roughly 8 practice items behind it. Target: 10 to 15 skills across the three clusters. Skills are tagged with standard taxonomy codes rather than Regents-only labels, so the same content is legible to any Algebra 1 curriculum later. **Final grain to be set in Session 3.** See OQ-3.
 
 ---
 
@@ -129,7 +129,7 @@ No student touches this system before that approval exists.
 
 **Milestone 1 is done when the app is deployed, approved for pilot use, and the 11 students have used it unsupervised.**
 
-M1 is measured on the tool, not on exam results. Because these students are taught daily by the same person who built the app, a January pass rate cannot be attributed to the app. Exam outcomes are M2 evidence at best.
+M1 is measured on the tool, not on exam results. Because these students are taught daily by the same person who built the app (myself), a January pass rate cannot be attributed to the app. Exam outcomes are M2 evidence at best.
 
 - **Primary signal:** number of students who open the app outside class without being told to, over two weeks.
 - **Correctness signal:** the proportion of generated explanations that are mathematically correct, scored by hand against a set of items with known answers.
