@@ -1,0 +1,40 @@
+# ADR-001: Technology stack for AdamsBrain
+
+## Decision
+
+**Language: TypeScript everywhere**, including the application, the data layer,
+and later the evaluation tooling. Python enters later only if offline analysis
+genuinely needs it.
+
+**Framework: Next.js (App Router), deployed on Vercel.** The backend is Next.js API routes rather than a separate Express service.
+
+**Database: PostgreSQL**, on a free tier (Neon or Supabase), with Prisma as the ORM.
+
+**Auth: Auth.js (NextAuth)** 
+
+**Mobile: PWA**, not native. Expo (React Native) is the path if native is ever needed, since it reuses the same language and component model.
+
+## Reasoning
+
+**Why not a separate Express backend.** Two deployments means two sets of environment variables, two failure surfaces, and CORS problems, for one developer building one application. Next.js API routes teach the same concepts (routing, middleware, request handling, database access) with one thing to debug instead of three. Splitting out a service later is a known, teachable operation if the product ever needs it.
+
+**Why PostgreSQL, reversing an earlier recommendation.** MongoDB was recommended first and then overruled. Three reasons:
+
+- The data is relational. Students have attempts, attempts belong to questions, questions belong to topics, topics build into mastery. "Which topics is this student weakest in over the last 30 days" is a join. Postgres answers it in one query; MongoDB requires either denormalising and managing consistency by hand, or joining in application code.
+- pgvector. Postgres stores and searches vector embeddings via an extension, which is what the M2 retrieval work needs. One database serves both application data and curriculum retrieval, instead of running a separate vector store.
+- SQL transfers. AI engineering is substantially data work: analysing evaluation results, inspecting failures, understanding users. SQL is the common language of that work. MongoDB's query language transfers nowhere.
+
+Running both databases was considered and rejected: two databases means two sets of problems for a beginner.
+
+**Why Prisma.** TypeScript-native, so schema and types stay in sync. That catches a category of bug at compile time rather than in production.
+
+**Why a PWA.** Two codebases is closer to two and a half times the work: two builds, two deployments, two auth flows, and an app store review process. The target users are on school-issued Chromebooks, where a PWA installs to the home screen and updates instantly with no store approval.
+
+## Consequences
+
+Most AI engineering tutorials and libraries are Python-first, so there will be thinner material to copy from. Accepted deliberately: less copyable material means more understanding is required.
+
+Vercel and the database free tiers have limits that have not been stress-tested.
+Free tier terms change and should be verified rather than assumed.
+
+Choosing API routes over a separate service means that if AdamsBrain ever needs a long-running or non-HTTP workload, that work will have to move elsewhere. A known future cost, not a surprise.
