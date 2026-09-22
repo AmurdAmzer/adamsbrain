@@ -1,0 +1,32 @@
+# ADR-002: Store scaffold counters on the Mastery row
+
+**Status:** Accepted
+**Date:** 03 September 2026
+
+## Context
+
+The scaffold rule promotes a student after 3 consecutive correct answers and demotes after 2 consecutive wrong. "Consecutive" can either be computed from the Attempt table on every request, or stored as counters on the Mastery row and updated as attempts arrive.
+
+Attempts are the source of truth either way. Counters hold no new information; they are a cache.
+
+At 11 students, computing on read would be fast enough to be invisible. The stated intent is to expand to roughly 90 students and beyond.
+
+## Decision
+
+Store `consecutive_correct` and `consecutive_wrong` on the Mastery row.
+
+The attempt insert and the mastery update happen in a **single transaction**, so a failed counter update rolls the attempt back rather than leaving the two out of sync.
+
+A **rebuild function** recomputes every Mastery row from Attempt history, for use when drift is suspected.
+
+## Consequences
+
+Reads are cheap. Writes are more complex, and there are now two representations of the same fact that can disagree.
+
+Complexity is being paid now for scale that is not yet present. This is accepted knowingly rather than by accident.
+
+If drift turns out to be common, revisit and compute on read instead. The rebuild function makes that reversal cheap.
+
+## Related
+
+ADR-001 (stack), ERD (Session 3), PRD section 6
