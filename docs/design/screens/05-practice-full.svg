@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1366" height="1110" viewBox="0 0 1366 1110"><rect id="Page-background" width="1366" height="1110" fill="#FFFFFF"/><g id="Top-nav">
+<rect x="0" y="0" width="1366" height="64" rx="0" fill="#FFFFFF"/>
+<rect x="0" y="63" width="1366" height="1" rx="0" fill="#DDE0E5"/>
+<text x="323" y="40" font-family="Inter" font-size="20" font-weight="700" fill="#1A1C1E" text-anchor="start">AdamsBrain</text>
+<text x="1043" y="40" font-family="Inter" font-size="16" font-weight="500" fill="#575C63" text-anchor="end">blue-heron</text>
+</g>
+<g id="Header">
+<text x="323" y="126" font-family="Inter" font-size="31" font-weight="700" fill="#1A1C1E" text-anchor="start">Linear Equations</text>
+<g id="Badge-FULL">
+<rect x="925" y="96" width="118" height="36" rx="18" fill="#FFFFFF" stroke="#1D5C5A" stroke-width="1.5"/>
+<circle cx="943" cy="114" r="4.5" fill="#1D5C5A" stroke="#1D5C5A" stroke-width="1.5"/>
+<circle cx="956" cy="114" r="4.5" fill="#1D5C5A" stroke="#1D5C5A" stroke-width="1.5"/>
+<circle cx="969" cy="114" r="4.5" fill="#1D5C5A" stroke="#1D5C5A" stroke-width="1.5"/>
+<text x="987" y="120" font-family="Inter" font-size="14" font-weight="700" fill="#1D5C5A" text-anchor="start">FULL</text>
+</g>
+<text x="323" y="162" font-family="Inter" font-size="14" font-weight="500" fill="#575C63" text-anchor="start">Question 1 of 5</text>
+<rect x="323.0" y="174" width="139.2" height="6" rx="3" fill="#1D5C5A"/>
+<rect x="468.2" y="174" width="139.2" height="6" rx="3" fill="#DDE0E5"/>
+<rect x="613.4" y="174" width="139.2" height="6" rx="3" fill="#DDE0E5"/>
+<rect x="758.5999999999999" y="174" width="139.2" height="6" rx="3" fill="#DDE0E5"/>
+<rect x="903.8" y="174" width="139.2" height="6" rx="3" fill="#DDE0E5"/>
+</g>
+<g id="Question-panel">
+<rect x="323" y="204" width="720" height="112" rx="8" fill="#EBEDF0"/>
+<text x="683" y="272" font-family="Inter" font-size="31" font-weight="600" fill="#1A1C1E" text-anchor="middle">3(x + 4) = x + 20</text>
+</g>
+<text x="323" y="360" font-family="Inter" font-size="20" font-weight="600" fill="#1A1C1E" text-anchor="start">Worked solution</text>
+<g id="Step-1">
+<rect x="323" y="380" width="720" height="120" rx="8" fill="#F4F5F7" stroke="#DDE0E5" stroke-width="1"/>
+<circle cx="357" cy="412" r="14" fill="#FFFFFF" stroke="#1D5C5A" stroke-width="1.5"/>
+<text x="357" y="417" font-family="Inter" font-size="14" font-weight="700" fill="#1D5C5A" text-anchor="middle">1</text>
+<text x="387" y="418" font-family="Inter" font-size="16" font-weight="600" fill="#1A1C1E" text-anchor="start">Distribute the 3</text>
+<text x="387" y="452" font-family="Inter" font-size="20" font-weight="400" fill="#575C63" text-anchor="start">3(x + 4) = x + 20</text>
+<text x="387" y="482" font-family="Inter" font-size="20" font-weight="500" fill="#1A1C1E" text-anchor="start">3x + 12 = x + 20</text>
+</g>
+<g id="Step-2">
+<rect x="323" y="512" width="720" height="120" rx="8" fill="#F4F5F7" stroke="#DDE0E5" stroke-width="1"/>
+<circle cx="357" cy="544" r="14" fill="#FFFFFF" stroke="#1D5C5A" stroke-width="1.5"/>
+<text x="357" y="549" font-family="Inter" font-size="14" font-weight="700" fill="#1D5C5A" text-anchor="middle">2</text>
+<text x="387" y="550" font-family="Inter" font-size="16" font-weight="600" fill="#1A1C1E" text-anchor="start">Group the x terms together (subtract x)</text>
+<text x="387" y="584" font-family="Inter" font-size="20" font-weight="400" fill="#575C63" text-anchor="start">3x + 12 = x + 20</text>
+<text x="387" y="614" font-family="Inter" font-size="20" font-weight="500" fill="#1A1C1E" text-anchor="start">2x + 12 = 20</text>
+</g>
+<g id="Step-3">
+<rect x="323" y="644" width="720" height="120" rx="8" fill="#F4F5F7" stroke="#DDE0E5" stroke-width="1"/>
+<circle cx="357" cy="676" r="14" fill="#FFFFFF" stroke="#1D5C5A" stroke-width="1.5"/>
+<text x="357" y="681" font-family="Inter" font-size="14" font-weight="700" fill="#1D5C5A" text-anchor="middle">3</text>
+<text x="387" y="682" font-family="Inter" font-size="16" font-weight="600" fill="#1A1C1E" text-anchor="start">Undo +12 (subtract 12 from both sides)</text>
+<text x="387" y="716" font-family="Inter" font-size="20" font-weight="400" fill="#575C63" text-anchor="start">2x + 12 = 20</text>
+<text x="387" y="746" font-family="Inter" font-size="20" font-weight="500" fill="#1A1C1E" text-anchor="start">2x = 8</text>
+</g>
+<g id="Step-4">
+<rect x="323" y="776" width="720" height="146" rx="8" fill="#F4F5F7" stroke="#DDE0E5" stroke-width="1"/>
+<circle cx="357" cy="808" r="14" fill="#FFFFFF" stroke="#1D5C5A" stroke-width="1.5"/>
+<text x="357" y="813" font-family="Inter" font-size="14" font-weight="700" fill="#1D5C5A" text-anchor="middle">4</text>
+<text x="387" y="814" font-family="Inter" font-size="16" font-weight="600" fill="#1A1C1E" text-anchor="start">Undo ×2 (divide both sides by 2)</text>
+<text x="387" y="848" font-family="Inter" font-size="20" font-weight="400" fill="#575C63" text-anchor="start">2x = 8</text>
+<text x="387" y="898" font-family="Inter" font-size="20" font-weight="500" fill="#1A1C1E" text-anchor="start">x =</text>
+<g id="Answer-input">
+<rect x="427" y="866" width="120" height="48" rx="8" fill="#FFFFFF" stroke="#868C94" stroke-width="1"/>
+<text x="441" y="897" font-family="Inter" font-size="20" font-weight="400" fill="#9AA0A8" text-anchor="start">?</text>
+</g>
+</g>
+<g id="Button-primary">
+<rect x="323" y="942" width="200" height="48" rx="8" fill="#1D5C5A"/>
+<text x="423.0" y="972" font-family="Inter" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">Check answer</text>
+</g>
+<g id="Attribution">
+<text x="323" y="1030" font-family="Inter" font-size="14" font-weight="400" fill="#575C63" text-anchor="start">From the New York State Education Department. Regents Examination in Algebra I, January 2024.</text>
+<text x="323" y="1050" font-family="Inter" font-size="14" font-weight="400" fill="#575C63" text-anchor="start">Available from nysedregents.org; accessed 19 September 2026.</text>
+</g></svg>

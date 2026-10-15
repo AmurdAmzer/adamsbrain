@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1366" height="768" viewBox="0 0 1366 768"><rect id="Page-background" width="1366" height="768" fill="#FFFFFF"/><g id="Top-nav">
+<rect x="0" y="0" width="1366" height="64" rx="0" fill="#FFFFFF"/>
+<rect x="0" y="63" width="1366" height="1" rx="0" fill="#DDE0E5"/>
+<text x="323" y="40" font-family="Inter" font-size="20" font-weight="700" fill="#1A1C1E" text-anchor="start">AdamsBrain</text>
+</g>
+<g id="Login-card">
+<rect x="483" y="150" width="400" height="444" rx="8" fill="#F4F5F7" stroke="#DDE0E5" stroke-width="1"/>
+<text x="515" y="210" font-family="Inter" font-size="31" font-weight="700" fill="#1A1C1E" text-anchor="start">AdamsBrain</text>
+<text x="515" y="238" font-family="Inter" font-size="16" font-weight="400" fill="#575C63" text-anchor="start">Algebra 1 practice</text>
+<g id="Login-error">
+<rect x="515" y="262" width="336" height="52" rx="8" fill="#FBEFEC"/>
+<rect x="515" y="262" width="4" height="52" rx="2" fill="#A33A2A"/>
+<text x="531" y="284" font-family="Inter" font-size="14" font-weight="600" fill="#A33A2A" text-anchor="start">That username and password don&#x27;t match.</text>
+<text x="531" y="303" font-family="Inter" font-size="14" font-weight="400" fill="#1A1C1E" text-anchor="start">Check both and try again.</text>
+</g>
+<text x="515" y="350" font-family="Inter" font-size="14" font-weight="600" fill="#1A1C1E" text-anchor="start">Username</text>
+<g id="Username-input">
+<rect x="515" y="360" width="336" height="48" rx="8" fill="#FFFFFF" stroke="#575C63" stroke-width="1"/>
+<text x="529" y="391" font-family="Inter" font-size="16" font-weight="400" fill="#1A1C1E" text-anchor="start">blue-heron</text>
+</g>
+<text x="515" y="440" font-family="Inter" font-size="14" font-weight="600" fill="#1A1C1E" text-anchor="start">Password</text>
+<g id="Password-input">
+<rect x="515" y="450" width="336" height="48" rx="8" fill="#FBEFEC" stroke="#A33A2A" stroke-width="1.5"/>
+<text x="529" y="481" font-family="Inter" font-size="16" font-weight="400" fill="#9AA0A8" text-anchor="start">••••••••</text>
+<circle cx="823" cy="474" r="10" fill="#A33A2A"/>
+<path d="M819 470 L827 478 M827 470 L819 478" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Button-primary">
+<rect x="515" y="522" width="336" height="48" rx="8" fill="#1D5C5A"/>
+<text x="683.0" y="552" font-family="Inter" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">Start</text>
+</g>
+</g>
+<text x="683.0" y="634" font-family="Inter" font-size="14" font-weight="400" fill="#575C63" text-anchor="middle">Forgot your password? Ask your teacher.</text></svg>
