@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1366" height="768" viewBox="0 0 1366 768"><rect id="Page-background" width="1366" height="768" fill="#FFFFFF"/><g id="Top-nav">
+<rect x="0" y="0" width="1366" height="64" rx="0" fill="#FFFFFF"/>
+<rect x="0" y="63" width="1366" height="1" rx="0" fill="#DDE0E5"/>
+<text x="323" y="40" font-family="Inter" font-size="20" font-weight="700" fill="#1A1C1E" text-anchor="start">AdamsBrain</text>
+<text x="1043" y="40" font-family="Inter" font-size="16" font-weight="500" fill="#575C63" text-anchor="end">blue-heron</text>
+</g>
+<g id="Header">
+<text x="323" y="126" font-family="Inter" font-size="31" font-weight="700" fill="#1A1C1E" text-anchor="start">Linear Equations</text>
+<g id="Badge-NONE">
+<rect x="925" y="96" width="118" height="36" rx="18" fill="#FFFFFF" stroke="#1D5C5A" stroke-width="1.5"/>
+<circle cx="943" cy="114" r="4.5" fill="#FFFFFF" stroke="#1D5C5A" stroke-width="1.5"/>
+<circle cx="956" cy="114" r="4.5" fill="#FFFFFF" stroke="#1D5C5A" stroke-width="1.5"/>
+<circle cx="969" cy="114" r="4.5" fill="#FFFFFF" stroke="#1D5C5A" stroke-width="1.5"/>
+<text x="987" y="120" font-family="Inter" font-size="14" font-weight="700" fill="#1D5C5A" text-anchor="start">NONE</text>
+</g>
+<text x="323" y="162" font-family="Inter" font-size="14" font-weight="500" fill="#575C63" text-anchor="start">Question 3 of 5</text>
+<rect x="323.0" y="174" width="139.2" height="6" rx="3" fill="#1D5C5A"/>
+<rect x="468.2" y="174" width="139.2" height="6" rx="3" fill="#1D5C5A"/>
+<rect x="613.4" y="174" width="139.2" height="6" rx="3" fill="#1D5C5A"/>
+<rect x="758.5999999999999" y="174" width="139.2" height="6" rx="3" fill="#DDE0E5"/>
+<rect x="903.8" y="174" width="139.2" height="6" rx="3" fill="#DDE0E5"/>
+</g>
+<g id="Question-panel">
+<rect x="323" y="204" width="720" height="112" rx="8" fill="#EBEDF0"/>
+<text x="683" y="272" font-family="Inter" font-size="31" font-weight="600" fill="#1A1C1E" text-anchor="middle">5(x + 2) = x + 22</text>
+</g>
+<g id="Answer-row">
+<text x="323" y="378" font-family="Inter" font-size="20" font-weight="600" fill="#1A1C1E" text-anchor="start">x =</text>
+<g id="Answer-input">
+<rect x="367" y="348" width="160" height="48" rx="8" fill="#FFFFFF" stroke="#868C94" stroke-width="1"/>
+<text x="381" y="379" font-family="Inter" font-size="20" font-weight="400" fill="#9AA0A8" text-anchor="start">?</text>
+</g>
+<g id="Button-primary">
+<rect x="547" y="348" width="200" height="48" rx="8" fill="#1D5C5A"/>
+<text x="647.0" y="378" font-family="Inter" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">Check answer</text>
+</g>
+</g>
+<g id="Attribution">
+<text x="323" y="700" font-family="Inter" font-size="14" font-weight="400" fill="#575C63" text-anchor="start">From the New York State Education Department. Regents Examination in Algebra I, January 2024.</text>
+<text x="323" y="720" font-family="Inter" font-size="14" font-weight="400" fill="#575C63" text-anchor="start">Available from nysedregents.org; accessed 19 September 2026.</text>
+</g></svg>

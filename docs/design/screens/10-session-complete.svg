@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1366" height="768" viewBox="0 0 1366 768"><rect id="Page-background" width="1366" height="768" fill="#FFFFFF"/><g id="Top-nav">
+<rect x="0" y="0" width="1366" height="64" rx="0" fill="#FFFFFF"/>
+<rect x="0" y="63" width="1366" height="1" rx="0" fill="#DDE0E5"/>
+<text x="323" y="40" font-family="Inter" font-size="20" font-weight="700" fill="#1A1C1E" text-anchor="start">AdamsBrain</text>
+<text x="1043" y="40" font-family="Inter" font-size="16" font-weight="500" fill="#575C63" text-anchor="end">blue-heron</text>
+</g>
+<g id="Summary-card">
+<rect x="403" y="110" width="560" height="470" rx="8" fill="#F4F5F7" stroke="#DDE0E5" stroke-width="1"/>
+<text x="435" y="168" font-family="Inter" font-size="31" font-weight="700" fill="#1A1C1E" text-anchor="start">Session complete</text>
+<rect x="435" y="194" width="240" height="96" rx="10" fill="#EBEDF0"/>
+<text x="459" y="250" font-family="Inter" font-size="39" font-weight="700" fill="#1A1C1E" text-anchor="start">5</text>
+<text x="507" y="248" font-family="Inter" font-size="16" font-weight="500" fill="#575C63" text-anchor="start">Questions</text>
+<rect x="691" y="194" width="240" height="96" rx="10" fill="#EBEDF0"/>
+<text x="715" y="250" font-family="Inter" font-size="39" font-weight="700" fill="#1A1C1E" text-anchor="start">4</text>
+<text x="763" y="248" font-family="Inter" font-size="16" font-weight="500" fill="#575C63" text-anchor="start">Correct</text>
+<text x="435" y="336" font-family="Inter" font-size="20" font-weight="600" fill="#1A1C1E" text-anchor="start">Support level</text>
+<g id="Row-linear">
+<rect x="435" y="354" width="496" height="1" rx="0" fill="#DDE0E5"/>
+<text x="435" y="388" font-family="Inter" font-size="16" font-weight="600" fill="#1A1C1E" text-anchor="start">Linear Equations</text>
+<circle cx="635" cy="383" r="4.5" fill="#1D5C5A" stroke="#1D5C5A" stroke-width="1.5"/>
+<circle cx="648" cy="383" r="4.5" fill="#1D5C5A" stroke="#1D5C5A" stroke-width="1.5"/>
+<circle cx="661" cy="383" r="4.5" fill="#1D5C5A" stroke="#1D5C5A" stroke-width="1.5"/>
+<text x="675" y="388" font-family="Inter" font-size="14" font-weight="700" fill="#1D5C5A" text-anchor="start">FULL</text>
+<text x="721" y="388" font-family="Inter" font-size="16" font-weight="700" fill="#1D5C5A" text-anchor="start">→</text>
+<circle cx="745" cy="383" r="4.5" fill="#1D5C5A" stroke="#1D5C5A" stroke-width="1.5"/>
+<circle cx="758" cy="383" r="4.5" fill="#1D5C5A" stroke="#1D5C5A" stroke-width="1.5"/>
+<circle cx="771" cy="383" r="4.5" fill="#FFFFFF" stroke="#1D5C5A" stroke-width="1.5"/>
+<text x="785" y="388" font-family="Inter" font-size="14" font-weight="700" fill="#1D5C5A" text-anchor="start">HALF</text>
+</g>
+<g id="Row-quadratics">
+<rect x="435" y="410" width="496" height="1" rx="0" fill="#DDE0E5"/>
+<text x="435" y="444" font-family="Inter" font-size="16" font-weight="600" fill="#1A1C1E" text-anchor="start">Quadratics</text>
+<circle cx="635" cy="439" r="4.5" fill="#1D5C5A" stroke="#1D5C5A" stroke-width="1.5"/>
+<circle cx="648" cy="439" r="4.5" fill="#1D5C5A" stroke="#1D5C5A" stroke-width="1.5"/>
+<circle cx="661" cy="439" r="4.5" fill="#FFFFFF" stroke="#1D5C5A" stroke-width="1.5"/>
+<text x="675" y="444" font-family="Inter" font-size="14" font-weight="700" fill="#1D5C5A" text-anchor="start">HALF</text>
+<text x="721" y="444" font-family="Inter" font-size="14" font-weight="400" fill="#575C63" text-anchor="start">no change</text>
+</g>
+<rect x="435" y="466" width="496" height="1" rx="0" fill="#DDE0E5"/>
+<text x="435" y="494" font-family="Inter" font-size="14" font-weight="400" fill="#575C63" text-anchor="start">Saved for blue-heron.</text>
+<g id="Button-primary">
+<rect x="435" y="510" width="220" height="48" rx="8" fill="#1D5C5A"/>
+<text x="545.0" y="540" font-family="Inter" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">Practice again</text>
+</g>
+<text x="693" y="540" font-family="Inter" font-size="16" font-weight="600" fill="#1D5C5A" text-anchor="start">Done for today</text>
+</g></svg>
