@@ -4,7 +4,7 @@
 
 **Language: TypeScript everywhere**, including the application, the data layer,
 and later the evaluation tooling. Python enters later only if offline analysis
-genuinely needs it.
+genuinely needs it..
 
 **Framework: Next.js (App Router), deployed on Vercel.** The backend is Next.js API routes rather than a separate Express service.
 
