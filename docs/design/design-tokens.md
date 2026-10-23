@@ -1,6 +1,6 @@
 # AdamsBrain design tokens
 
-Final, 15 Oct 2026. Port into the Tailwind config in Session 8.
+Final, 15 Oct 2026. Implemented in app/globals.css (Tailwind 4 keeps the theme in CSS, under @theme).
 Every contrast ratio below was calculated with the WCAG formula, not estimated.
 The screens in [screens/](screens/) use exactly these values.
 
